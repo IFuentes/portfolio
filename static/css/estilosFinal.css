@@ -1,0 +1,64 @@
+.Header{
+margin-top: 3.75em;
+background-image: url('');
+}
+
+.Header-imageContainer{
+width: 150px;
+}
+
+.Header-name{
+
+}
+
+.MainMenu{
+background: #1E1E1E;
+text-align: center;
+height: 3.75em;
+/*position: fixed;*/
+left: 0; /*este elemento y el de abajo sirven para que el contenedor de meu abarque todo el ancho en la pagina*/
+right: 0;
+}
+
+.MainMenu-list
+{ 
+	margin:  0 ;
+	padding: 0;
+
+}
+
+.MainMenu-item{
+display: inline-block;
+}
+
+.MainMenu-link{
+color: #00DBFF;
+text-decoration: none;
+line-height: 3.75em; /*tie que ser el mismo tamaño que el padre
+es decir que el main menu de 3.75 para que los eleentos de centren*/
+margin-right: 1.5em; /*esto es para separar los elementos del menu uno del otro.*/
+}
+
+.Profile{
+
+}
+
+.Work{
+
+}
+
+.article-image{
+	width: 200px;
+	height: 150px;
+}
+
+.Footer{
+
+}
+
+.article-figure{
+	display: inline;
+	position: relative;
+}
+
+

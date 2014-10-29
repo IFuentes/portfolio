@@ -1,0 +1,184 @@
+/*REGRESAR EL VIDEO PARA VER LA PARDE DONDE CENTRA EL AVAAR Y EL TEXTO EN EL HEADER*/
+/*UTILIDADES*/
+.u-title{
+color: #00CCFF;
+border-bottom: 2px dashed #00CCFF;
+font-size: 1.5em;
+font-weight: normal;
+text-align: center;
+padding-bottom: .5em;
+}
+/*MENU*/
+.MainMenu{
+background: #1E1E1E;
+text-align: center;
+height: 3.75em;
+position: fixed;
+left: 0; /*este elemeto y el de abajo sirven para que el contenedor de meu abarque todo el ancho en la pagina*/
+right: 0;
+top: 0;
+}
+
+.MainMenu-list
+{ 
+	margin:  0 ; /*se indican en est valor para eliminar el margen
+	interno y externo delpadre para que se centren los hijs (eltexto)*/
+	padding: 0;
+
+}
+
+.MainMenu-item{
+display: inline-block;
+}
+
+.MainMenu-link{
+color: #00DBFF;
+text-decoration: none;
+line-height: 3.75em; /*el line-height centra verticalmente el texto respecto al tamaño
+del padre es por eso que tiene que ser el mismo tamaño que el padre
+es decir que el main menu de 3.75 para que los elementos de centren*/
+margin-right: 1.5em; /*esto es para separar los elementos del menu uno del otro.*/
+}
+
+/*HEADER*/
+
+.Header{
+margin-top: 3.75em;
+background-image: url('../images/Header.jpg');
+background-repeat: no-repeat; /*que no se repita la imagen al mostrarse*/
+background-position: center; 
+background-size: cover;
+text-align: center;
+padding: 1.2em;
+
+}
+
+.Header-image{
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.Header-imageContainer{
+margin: 0;
+}
+
+.Header-name,
+.Header-link{
+color: white;
+}
+
+.Header-link{
+font-size: 1.8em;
+font-weight: bold;
+text-decoration: none;
+}
+
+.Header-name{
+font-size: 1.5em;
+font-weight: 300; /*el 300 para poner mas dlgadito el tamaño de fuente, se usa 300 porque no existe el comodin lighter*/
+margin: 0;
+}
+
+/*PROFILE*/
+.Profile{
+text-align: center;
+}
+
+.Profile-description{ /*YO NO LO TENIA IMPLEMENTADO*/
+color: blue;
+font-weight: bold;
+}
+
+.Profile-link{
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 1em;
+	margin-right: .5em;
+}
+/*WORK */
+.Work{
+margin-top: 2em;
+text-align: center;
+}
+
+.Work-item{
+display: inline-block;
+margin-right: 1.8em;
+margin-bottom: 1.8em;
+vertical-align: top;
+}
+
+.Work-imageContainer{
+margin: 0;	
+height: 15em; /*eliminar esta etiqueta y la de abajo*/
+width:  15em; 
+}
+
+.Work-description{
+font-size: 1.1em;
+color: #515151;
+font-style: italic;
+/*width: 20em;*/
+}
+/*FOOTER*/
+.Footer{
+background-image: url('../images/footer.jpg');
+background-repeat: no-repeat; /*que no se repita la imagen al mostrarse*/
+background-position: center; 
+background-size: cover;
+/*margin-bottom: 500px;*/
+padding: .5em 0;/*AUN NO MENCIONA ESTOS DOS RESTANTES DELTE*/
+text-align: center;
+}
+
+.Footer-form{
+text-align: center;
+display: inline-block;	
+}
+
+.Footer-left{
+display: inline-block;
+width: 20em;
+text-align: center;
+vertical-align: top;
+/*margin: 0;*/
+}
+
+.Footer-title{
+color: white;
+/*margin: 0;*/
+}
+
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border:none;
+	display: block;
+	margin-bottom: .3em; /*ESTE ERA MI ERROR */
+	border-radius: .5em;
+	padding: .5em;
+	/*margin: auto;*/
+}
+.Footer-textarea{
+
+	resize:none;
+	width: 10.93em;
+}
+
+.Footer-button{
+	background: orange;
+	border-radius: .5em;
+	border: none;
+	color: white;
+	padding: .5em 1em;
+	width: 11.93em;
+
+}
+
+.Footer-description{
+	color: white;
+	margin: 0;
+}
+

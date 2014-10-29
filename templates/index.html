@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Main page of my personal web site." />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<title> José Fuentes portfolio online </title>
+		<link rel="stylesheet" href= "../static/css/normalize.css" />
+		<link rel="stylesheet" href= "../static/css/styles.css" />
+		<script type="text/javascript" src="../static/javaScript/prefixfree.js"></script>
+	</head>
+	<!-- BEGINNING OF THE PRINCIPAL BODY -->
+	<body>
+		<!-- BEGINNING OF THE HEADER WHICH INCLUDES MAIN MENU -->
+		<header class="Header">
+			<!-- MENU ITEM FOR THE NON DESKTOP DESIGN -->
+			<div id="iconMenu" class="Menu-icon icon-menu"> Menu</div>
+    		<!-- BEGINNING OF THE MAIN MANU -->
+			<nav id="MainMenu" class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item"><a class="MainMenu-link" href="personal.html">PERSONAL</a></li>
+					<li class="MainMenu-item"><a class="MainMenu-link" href="school.html">ESTUDIOS</a></li>
+					<li class="MainMenu-item"><a class="MainMenu-link" href="jobs.html">EMPLEOS</a></li>
+					<li class="MainMenu-item"><a class="MainMenu-link" href="portafolio.html">PORTAFOLIO</a></li>
+					<li class="MainMenu-item"><a class="MainMenu-link" href="courses.html">CURSOS</a></li>
+				</ul>
+			</nav>
+			<!-- ENDING OF THE MAIN MANU-->
+		</header> 
+		<!-- BEGINNING OF THE PROFILE SECTION-->
+		<section id="Profile" class="Profile"> 
+			<p id="Profile-quote"> Hi, my name is José and I am a Web Developer. </p>
+			<a class="Profile-link" href="https://www.facebook.com/joseignacio.fuentesramos" target="_blank">Facebook</a>
+			<a class="Profile-link" href="https://www.github.com/IFuentes" target="_blank">Github</a>
+			<a class="Profile-link" href="https://www.twitter.com/ignacioframos" target="_blank">Twitter</a>
+		<!-- ENDING OF THE PROFILE SECTION-->
+		</section>
+		<!-- BEGINNING OF THE CONTENT SECTION-->
+		<section id="Content" class="Content">
+			<div class="Content-item">
+				<div class="Content-whiteBox">
+				<div class="Content-item-title">PROFESSIONAL GOAL</div>
+					<span class="Content-item-description">Being part of a work team which allows me apply my knowledge and contribute to the company’s growth, where my achievements and performance are recognized.</span> 
+				</div>
+			</div>	
+ 
+			<!-- BRIEF INTRODUCTION-->
+			<div class="Content-item">
+				<div class="Content-whiteBox">
+					<div class="Content-item-title">SUMMARY</div>
+					<span class="Content-item-description">Computer Systems Engineer with over 2 years of experience on the technology information field, developing web and desktop applications by using tools like: <strong>VB .Net</strong>, ASP .Net, <strong>CSS3</strong>, <strong>HTML5</strong>, <strong>C# .Net</strong>, PHP5 y <strong>SQL Server 2008</strong>. Besides Ab initio and Teradata, ETL technologies, applied on Business Intelligence. <br><br>
+					I love learning new ways to utilise with web technologies and I'm always looking to create websites, functions and code snippets that will improve the way we interact with the web.</span>
+				</div>
+			</div>
+			<!-- BEGINNING OF THE SKILLS TABLE -->
+			<div class="Content-item">
+				<div class="Content-whiteBox"> 
+					<div class="Content-item-title">SKILLS</div>
+					<table class="tableSkills">
+						<tr ><td>Skill</td><td>Level</td><td>Image</td></tr>
+						<tr><td>Visual Basic .Net</td><td>Intermediate</td><td><img class="imgSkill" src="../static/images/vb.png"></td></tr>
+						<tr><td>ASP .Net</td><td>Intermediate</td><td><img class="imgSkill" src="../static/images/asp.png"></td></tr>
+						<tr><td>C# .Net</td><td>Basic</td><td><img class="imgSkill" src="../static/images/csharp.png"></td></tr>
+						<tr><td>CSS3 </td><td>Intermediate </td><td><img class="imgSkill" src="../static/images/css3.png"></td></tr>
+						<tr><td> HTML5 </td><td> Intermediate </td><td><img class="imgSkill" src="../static/images/html5.png"></td></tr>
+						<tr><td> JavaScript </td><td> Basic </td><td><img class="imgSkill" src="../static/images/javascript.png"></td></tr>
+						<tr><td> jQuery </td><td> Basic </td><td><img class="imgSkill" src="../static/images/jquery.png"></td></tr>
+						<tr><td>PHP5</td><td>Basic</td><td><img class="imgSkill" src="../static/images/php5.png"></td></tr>
+						<tr><td>SQL Server 2008 </td><td> Intermediate </td><td><img class="imgSkill" src="../static/images/sqlserver.png"></td></tr>
+						<tr><td> Teradata </td><td>Basic </td><td><img class="imgSkill" src="../static/images/teradata.png"></td></tr>
+						<tr><td> Ab Initio</td><td>Basic</td><td><img class="imgSkill" src="../static/images/abinitio.png"></td></tr>
+					</table>
+				</div>
+			</div>
+		<!-- ENDING OF THE SKILLS TABLE -->
+
+		<div class="Content-item">
+				<div class="Content-whiteBox"> 
+					<div class="Content-item-title">LANGUAGES</div>
+					<div class="Content-item-description">Spanish: Native</div>
+					<div class="Content-item-description">English: Intermediate</div>
+				</div>
+		</div>
+
+			<!-- BEGINNING CONTACT FORM -->
+			<div class="Content-item">
+				<div class="Content-whiteBox"> 
+					<form id="contactForm" method="POST" action="contactForm.php" class="contactForm">
+						<input class ="input-contactForm" type="text" name="name" placeholder="Name" />
+						<input class ="input-contactForm" type="email" name="email" placeholder="E-mail" />
+						<input class ="input-contactForm" type="text" name="subject" placeholder="Subject" />
+						<textarea class ="textarea-contactForm" type="text" name="message" placeholder="Message" ></textarea>
+						<input class="btnSubmit" type="submit" name="submit" value="Submit" />
+					</form>
+				</div>
+			</div>
+		<!-- ENDING OF THE CONTACT FORM -->
+		</section>
+		<!-- ENDING OF THE CONTENT SECTION-->
+		<!-- BEGINNING OF THE SOCIAL NETWORKS-->
+		<section id="social">
+			<div class="social">
+				<div class="Content-item-title ">CONTACT WITH ME</div>
+				<a class="icon-facebook2 social-link" href="http://www.facebook.com/joseignacio.fuentesramos" target="_blank"></a>
+				<a class="icon-twitter2 social-link" href="http://www.twitter.com/ignacioframos" target="_blank"></a>
+				<a class="icon-github4 social-link" href="http://www.github.com/IFuentes" target="_blank"></a>
+				
+			</div>
+		</section>
+		<!-- ENDING OF THE SOCIAL NETWORKS-->
+		<!-- BEGINNING OF THE FOOTER SECTION-->
+		<footer class="MainFooter">
+			<div class="MainFooter-container">
+				<a class="MainFooter-link" href="http://www.josefuentesramos.260mb.net/" target="_blank"> My Web page </a>
+				<p class="Footer-rights">All Rights Reserved&copy 2014</p>
+			</div>
+		<!-- ENDING THE FOOTER SECTION-->
+		</footer>
+		<!-- LOAD SCRIPTS SECTION-->
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="../static/javaScript/animation.js"></script>
+	</body>
+</html>
