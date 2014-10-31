@@ -1131,6 +1131,7 @@ td{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	color: #428bca;
 }
 
 .social-item{
@@ -1138,6 +1139,10 @@ td{
 	margin-right: .5em;
 }
 .fb,.tw,.gp,.gh{
+	text-decoration: none;
+	color: white;
+}
+.downloadFile{
 	text-decoration: none;
 	color: white;
 }
